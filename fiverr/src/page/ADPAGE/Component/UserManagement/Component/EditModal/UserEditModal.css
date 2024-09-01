@@ -1,0 +1,108 @@
+/* UserEditModal.css */
+
+/* To style the modal container */
+.user-edit-modal .ant-modal {
+    border-radius: 12px;
+}
+  
+/* To style the modal content */
+.user-edit-modal .ant-modal-content {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+  
+/* Modal header styling */
+.user-edit-modal .ant-modal-header {
+    border-bottom: 2px solid #f0f0f0;
+    border-radius: 12px 12px 0 0;
+    background-color: #fafafa;
+}
+  
+.user-edit-modal .ant-modal-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+}
+  
+/* Form item styling */
+.user-edit-modal .ant-form-item {
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Space between fields */
+}
+
+.user-edit-modal .ant-form-item-label > label {
+    font-weight: 600;
+    color: #555;
+    flex-basis: 100%;
+}
+
+/* Form item input styling */
+.user-edit-modal .ant-form-item .ant-form-item-control {
+    flex-basis: 48%; /* Adjust to fit 2 per row, 32% for 3 per row */
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    .user-edit-modal .ant-form-item .ant-form-item-control {
+        flex-basis: 100%;
+    }
+}
+
+/* Input and select styling */
+.user-edit-modal .ant-input, .user-edit-modal .ant-select-selector, .user-edit-modal .ant-date-picker {
+    border-radius: 8px;
+    border: 1px solid #d9d9d9;
+    padding: 0.8rem;
+    font-size: 1rem;
+}
+  
+.user-edit-modal .ant-input:hover, .user-edit-modal .ant-select-selector:hover, .user-edit-modal .ant-date-picker:hover {
+    border-color: #40a9ff;
+}
+  
+.user-edit-modal .ant-select-selector {
+    padding: 0.8rem;
+}
+  
+/* Button styling */
+.user-edit-modal .ant-btn-primary {
+    background-color: #1890ff;
+    border-color: #1890ff;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+}
+  
+.user-edit-modal .ant-btn-primary:hover {
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+}
+  
+.user-edit-modal .ant-btn {
+    border-radius: 8px;
+}
+  
+/* DatePicker styling */
+.user-edit-modal .ant-date-picker {
+    width: 100%;
+}
+  
+/* Modal footer styling */
+.user-edit-modal .ant-modal-footer {
+    border-top: 2px solid #f0f0f0;
+    text-align: right;
+    padding: 1rem;
+}
+  
+/* Modal close button styling */
+.user-edit-modal .ant-modal-close {
+    color: #1890ff;
+}
+  
+.user-edit-modal .ant-modal-close:hover {
+    color: #40a9ff;
+}

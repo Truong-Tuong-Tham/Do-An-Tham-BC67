@@ -1,0 +1,29 @@
+/* Add this to your global CSS file or in a <style> tag */
+.container {
+    max-width: 1200px;
+  }
+  
+  .table th, .table td {
+    border-bottom: 1px solid #e5e7eb; /* Gray-200 */
+  }
+  
+  .table th {
+    background-color: #f3f4f6; /* Gray-100 */
+    font-weight: bold;
+  }
+  
+  .table img {
+    object-fit: cover;
+  }
+  
+  .pagination-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  .pagination-controls span {
+    font-weight: 600;
+  }
+  

@@ -1,0 +1,74 @@
+.user-detail-modal-modern {
+  border-radius: 15px;
+  overflow: hidden;
+  background: #f5f5f5; /* Light background for modern look */
+}
+
+.modal-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333; /* Darker color for better readability */
+}
+
+.user-detail-modal-content {
+  padding: 20px;
+}
+
+.user-detail-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd; /* Light separator line */
+  padding-bottom: 15px;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  border: 3px solid #1890ff; /* Blue border around avatar */
+  margin-right: 20px;
+}
+
+.user-detail-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  font-size: 1.4rem;
+  color: #333;
+  margin: 0;
+}
+
+.user-role {
+  font-size: 1rem;
+  color: #888; /* Lighter gray for role text */
+}
+
+.user-detail-descriptions {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff; /* White background for descriptions */
+}
+
+.user-detail-item {
+  padding: 12px 16px;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #f0f0f0; /* Subtle divider between items */
+}
+
+.user-detail-item:last-child {
+  border-bottom: none; /* Remove divider from the last item */
+}
+
+.user-detail-item .anticon {
+  color: #1890ff; /* Icon color */
+  margin-right: 10px;
+}
+
+/* Styles for Tags */
+.ant-tag {
+  margin: 4px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
